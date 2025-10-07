@@ -1,5 +1,5 @@
 document.getElementById("loginBtn").addEventListener("click", function () {
-  const allowedNames = ["jovy", "denneth", "vincent", "kurt", "rob", "brent", "jm", "gab",];
+  const allowedNames = ["denneth", "vicent", "kurt", "rob", "brent", "jm", "gab", "jovy", "bigboy"];
   const input = document.getElementById("username");
   const nameInput = input.value.trim().toLowerCase();
 
@@ -21,5 +21,3 @@ document.getElementById("loginBtn").addEventListener("click", function () {
     alert("Sorry, di ka authorized pumasok dito 😏");
   }
 });
-
-
